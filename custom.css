@@ -1,9 +1,26 @@
-h1, h2{
-    font-size:30px;
+h1,
+h2 {
+    font-size: 40px;
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
 }
+
+
+
+.first {
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+
+
+.half{
+    padding-bottom: 70px;
+}
+
+
 
