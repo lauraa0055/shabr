@@ -10,17 +10,14 @@ p {
 
 
 
-.first {
-    color: white;
-    background-color: black;
+.half{
     padding-bottom: 50px;
 }
 
-
-
-.half{
-    padding-bottom: 70px;
+.one{
+    padding-top: 40px;
 }
+
 
 
 
