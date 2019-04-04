@@ -18,6 +18,14 @@ p {
     padding-top: 40px;
 }
 
+
+
+[class*="col-xs-10 col-xs-offset-1 col-md-4"]{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: lightblue;
+}
+
 .pic{
     padding:30px;
 }
@@ -27,5 +35,6 @@ p {
     width: 900px;
     height: 800px;
 }
+
 
 
