@@ -34,8 +34,17 @@ p {
 /*    padding-top: 10px;*/
 /*    background-color: lightblue;*/
 
+
 /*      vertical-align: middle;*/
 /*      display: table-cell;*/
 
-/*}*/
+.carousel{
+    margin-left: 530px;
+    width: 900px;
+    height: 800px;
+}
+
+
+
+
 
