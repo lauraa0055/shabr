@@ -10,13 +10,13 @@ p {
 
 
 
-.half{
-    padding-bottom: 50px;
-}
+/*.half{*/
+/*    padding-bottom: 50px;*/
+/*}*/
 
-.one{
-    padding-top: 40px;
-}
+/*.one{*/
+/*    padding-top: 40px;*/
+/*}*/
 
 
 
@@ -39,12 +39,18 @@ p {
 /*      display: table-cell;*/
 
 .carousel{
-    margin-left: 530px;
-    width: 900px;
-    height: 800px;
+  width: 100%;
+      height: 100%;
+      background-color:pink;
 }
 
 
-
-
+ html, body {
+      width: 100%;
+     
+   
+    }
+/*#carouselExampleControls{*/
+     
+/*}*/
 
