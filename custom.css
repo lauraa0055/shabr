@@ -1,9 +1,18 @@
-h1,
-h2 {
-    font-size: 40px;
+h1
+{
+     font-size: 40px;
     text-align: center;
+   font-family: 'Cormorant Garamond', serif;
 }
 
+h2{
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+}
+h3{
+    
+    font-family: 'Dancing Script', cursive;
+}
 p {
     text-align: center;
 }
