@@ -61,4 +61,14 @@ p {
      
 /*}*/
 
-
+@media (min-width:768px){
+     h1 {
+            color: purple;
+        }
+     
+}
+@media(min-width:992px){
+    h1{
+        color:black;
+    }
+}
