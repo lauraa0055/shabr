@@ -1,74 +1,100 @@
-h1
-{
-     font-size: 40px;
+h1 {
+    font-size: 40px;
     text-align: center;
-   font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-family: 'Cinzel', serif;
 }
-h3{
-    
+
+h3 {
+
     font-family: 'Dancing Script', cursive;
 }
+
 p {
     text-align: center;
 }
 
+.container #first{
+    text-align: center;
+    margin-top: 50px;
+}
 
-
-/*.half{*/
-/*    padding-bottom: 50px;*/
-/*}*/
-
-/*.one{*/
-/*    padding-top: 40px;*/
-/*}*/
-
-
-
-[class*="col-xs-10 col-xs-offset-1 col-md-4"]{
+[class*="col-xs-10 col-xs-offset-1 col-md-4"] {
     padding-bottom: 20px;
     padding-top: 10px;
     background-color: lightblue;
 }
 
-.pic{
-    padding:30px;
+.pic {
+    padding: 30px;
 }
+
 /*#container{*/
+
 /*   padding-bottom: 20px;*/
+
 /*    padding-top: 10px;*/
+
 /*    background-color: lightblue;*/
 
-
 /*      vertical-align: middle;*/
+
 /*      display: table-cell;*/
 
-.carousel{
-  width: 100%;
-      /*height: 100%;*/
-      background-color:pink;
+.carousel {
+    width: 100%;
+    /*height: 100%;*/
+    background-color: pink;
+    height: auto;
+    margin: auto;
 }
 
 
- html, body {
-      width: 100%;
-    }
+html,
+body {
+    width: 100%;
+}
+
 /*#carouselExampleControls{*/
-     
+
 /*}*/
 
-@media (min-width:768px){
-     h1 {
-            color: purple;
-        }
-     
+.jumbotron {
+    background-color: #96DEF3;
+    color: white;
 }
-@media(min-width:992px){
-    h1{
-        color:black;
+
+body {
+    background-color: #FFB6C1;
+}
+
+.container .list-group .list-group-item{
+    background-color:#FFB6C1;
+    border-color:#96DEF3;
+    margin-top: 40px;
+}
+
+.container .list-group .one {
+    background-color: #96DEF3;
+}
+
+.change {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .big-screen {
+        display: none;
     }
+    .change {
+        display: block;
+    }
+}
+
+.end{
+    margin-top: 30px;
 }

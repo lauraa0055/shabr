@@ -1,0 +1,19 @@
+
+.navbar-dark .navbar-toggler{
+        background-color: #FFB6C1;
+        border-color:#96DEF3;
+    
+} 
+
+.navbar-dark .navbar-collapse{
+    background-color: #96DEF3;
+    color:white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+background-color: #96DEF3;
+  color: white;
+}
+
+
