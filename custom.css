@@ -14,9 +14,9 @@ h3 {
     font-family: 'Dancing Script', cursive;
 }
 
-p {
-    text-align: center;
-}
+/*p {*/
+/*    text-align: center;*/
+/*}*/
 
 .container #first{
     text-align: center;
@@ -79,7 +79,7 @@ body {
 }
 
 .container .list-group .one {
-    background-color: #96DEF3;
+    background-color: #CDFCFA;
 }
 
 .change {
@@ -96,5 +96,13 @@ body {
 }
 
 .end{
-    margin-top: 30px;
+    margin-top: 60px;
+}
+
+#copy{
+    text-align: center;
+}
+
+.b2{
+    float:left;
 }
