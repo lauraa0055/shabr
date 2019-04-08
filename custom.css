@@ -1,16 +1,16 @@
-h1 {
-    font-size: 40px;
+ h1 {
+   
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
 }
 
 h2 {
-    font-size: 30px;
+   
     font-family: 'Cinzel', serif;
 }
 
 h3 {
-
+   
     font-family: 'Dancing Script', cursive;
 }
 
@@ -33,17 +33,7 @@ h3 {
     padding: 30px;
 }
 
-/*#container{*/
 
-/*   padding-bottom: 20px;*/
-
-/*    padding-top: 10px;*/
-
-/*    background-color: lightblue;*/
-
-/*      vertical-align: middle;*/
-
-/*      display: table-cell;*/
 
 .carousel {
     width: 100%;
@@ -59,21 +49,22 @@ body {
     width: 100%;
 }
 
-/*#carouselExampleControls{*/
-
-/*}*/
 
 .jumbotron {
-    background-color: #96DEF3;
+    /*background-color: #96DEF3;*/
+    background-color: lightblue;
     color: white;
 }
 
 body {
-    background-color: #FFB6C1;
+    /*background-color: #FFB6C1;*/
+    background-color: #C2EAF9;
+   
 }
 
 .container .list-group .list-group-item{
-    background-color:#FFB6C1;
+    /*background-color:#FFB6C1;*/
+    background-color: #B0E0E6	;
     border-color:#96DEF3;
     margin-top: 40px;
 }
@@ -85,7 +76,7 @@ body {
 .change {
     display: none;
 }
-
+/*small*/
 @media (max-width: 769px) {
     .big-screen {
         display: none;
@@ -93,8 +84,35 @@ body {
     .change {
         display: block;
     }
+   
+    h1{
+         font-size: 40px;
+    }
+    h2{
+         font-size: 30px;
+    }
+    h3{
+         font-size: 25px;
+    }
 }
-
+/*medium*/
+  @media(min-width: 992px){
+  
+     h1{
+        font-size: 60px;
+       
+      }
+       h2{
+        font-size: 45px;
+       color:white;
+      }
+      h3{
+        color:white; 
+      font-size:35px; 
+      }
+  }
+ 
+   
 .end{
     margin-top: 60px;
 }
